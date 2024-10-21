@@ -1,0 +1,87 @@
+
+
+ul,li
+
+{
+
+list-style-type:none;
+margin:0;padding:0;
+
+}
+
+.calendar
+
+{
+
+padding:2%;
+
+}
+
+
+.calendar .day
+
+{
+
+background: rgb(236,240,241,0.2);
+border-bottom:5px solid #bdc3c7;
+float:left;
+margin:3px;
+position:relative;
+height:13.6%;
+width:13.6%;
+
+}
+
+
+.day.marked
+
+{
+	background: rgb(88,214,0,0.6);
+	border-color:#00D606;
+}
+
+.day .day-number
+
+{
+	color:#000000;
+	left:5px;
+	position:absolute;
+	top:5px;
+}
+
+.day.marked .day-number
+{
+
+	color:000000;
+
+}
+
+.day .events
+
+{
+	color:white;
+	margin:29px 7px 7px;
+	height:90px;
+	overflow-x:hidden;
+	overflow-y:hidden;
+}
+
+.day .events h5
+
+{
+	margin:0 0 5px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	width:100%;
+}
+
+.day .events strong,.day .events span
+
+{
+
+	display:block;
+	font-size:11px;
+}
+
+.day .events ul{}.day .events li{}
